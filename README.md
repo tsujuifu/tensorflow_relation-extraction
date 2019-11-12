@@ -20,7 +20,7 @@ We use [Flair](https://github.com/zalandoresearch/flair) as **pre-trained embedd
 ```
 
 ## Result
-
 | Embedding | Training Loss | Validation Accuracy | Testing Accuracy |
 | :-: | :-: | :-: | :-: | 
 | GloVe | 1.3609 | 53.37% | 56.815% | 
+| BERT | 0.4248 | 69.12% | 69.519% |
