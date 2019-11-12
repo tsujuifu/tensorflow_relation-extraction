@@ -50,7 +50,6 @@ if __name__=='__main__':
         from flair.embeddings import BertEmbeddings
         EMB = embedding = BertEmbeddings()
     
-    
     rels = process_rel('Dataset/tr.pkl')
     pickle.dump(rels, open('Dataset/RELs.pkl', 'wb'))
     
