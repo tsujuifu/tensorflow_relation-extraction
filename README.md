@@ -3,7 +3,7 @@ A TensorFlow Implementation of Naive Relation Extraction under SemEval-2010 Task
 
 ## Requirements
 + **Python3**
-+ TensorFlow>=1.14
++ TensorFlow >= 1.14
 + [Flair](https://github.com/zalandoresearch/flair)
 
 ## Usage
