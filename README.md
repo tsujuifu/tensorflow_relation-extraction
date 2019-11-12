@@ -18,3 +18,9 @@ We use [Flair](https://github.com/zalandoresearch/flair) as **pre-trained embedd
 ```
   python -m model_relation-extraction --emb=[glove, bert]
 ```
+
+## Result
+
+| Embedding | Training Loss | Validation Accuracy | Testing Accuracy |
+| :-: | :-: | :-: | :-: | 
+| GloVe | 1.3609 | 53.37% | 56.815% | 
