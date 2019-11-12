@@ -24,3 +24,6 @@ We use [Flair](https://github.com/zalandoresearch/flair) as **pre-trained embedd
 | :-: | :-: | :-: | :-: | 
 | GloVe | 1.3609 | 53.37% | 56.815% | 
 | BERT | 0.4248 | 69.12% | 69.519% |
+
+## Resources
++ [SemEval-2010 Task 8](https://drive.google.com/file/d/0B_jQiLugGTAkMDQ5ZjZiMTUtMzQ1Yy00YWNmLWJlZDYtOWY1ZDMwY2U4YjFk/view)
