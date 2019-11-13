@@ -47,15 +47,9 @@ if __name__=='__main__':
     
     rels = pickle.load(open('Dataset/RELs.pkl', 'rb'))
     
-    if args.emb=='glove':
-        tr = pickle.load(open('Dataset/tr_glove.pkl', 'rb'))
-        vl = pickle.load(open('Dataset/vl_glove.pkl', 'rb'))
-        ts = pickle.load(open('Dataset/ts_glove.pkl', 'rb'))
-        
-    elif args.emb=='bert':
-        tr = pickle.load(open('Dataset/tr_bert.pkl', 'rb'))
-        vl = pickle.load(open('Dataset/vl_bert.pkl', 'rb'))
-        ts = pickle.load(open('Dataset/ts_bert.pkl', 'rb'))
+    tr = pickle.load(open('Dataset/tr_%s.pkl' % (args.emb), 'rb'))
+    vl = pickle.load(open('Dataset/vl_%s.pkl' % (args.emb), 'rb'))
+    ts = pickle.load(open('Dataset/ts_%s.pkl' % (args.emb), 'rb'))
     
     ld_tr = DataLoader(args=args, dat=tr, rels=rels)
     ld_vl = DataLoader(args=args, dat=vl, rels=rels)
