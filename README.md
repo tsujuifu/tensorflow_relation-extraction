@@ -11,12 +11,12 @@ We use [Flair](https://github.com/zalandoresearch/flair) as **pre-trained embedd
 
 + Data Processing
 ```
-  python -m model_data-processing --emb=[glove, bert]
+  python -m main_data-processing --emb=[glove, bert]
 ```
 
 + Train
 ```
-  python -m model_relation-extraction --emb=[glove, bert]
+  python -m main_relation-extraction --emb=[glove, bert]
 ```
 
 ## Result
